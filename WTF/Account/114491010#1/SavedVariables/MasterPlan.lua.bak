@@ -1,0 +1,14 @@
+
+MasterPlanConfig = {
+	["version"] = "0.11",
+	["batchMissions"] = true,
+}
+MasterPlanData = {
+	["DieSilberneHand#Myuki"] = {
+		[182] = 1417526100,
+		[165] = 1417526100,
+		[110] = 1417526100,
+		[107] = 1417526100,
+		[112] = 1417526100,
+	},
+}

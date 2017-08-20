@@ -1,0 +1,58 @@
+
+ErrorFilterDB = {
+	["profileKeys"] = {
+		["Авлеар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанаар - Гордунни"] = "Default",
+		["Авеанир - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авенилар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Афенар - Гордунни"] = "Default",
+		["Авлеаар - Ревущий фьорд"] = "Afenar_Warlock",
+		["Афенар - Король-лич"] = "Default",
+		["Авлеанар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанир - Ясеневый лес"] = "Default",
+		["Авеарин - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Айлиин - Ясеневый лес"] = "Default",
+		["Веанар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанара - Дракономор"] = "Default",
+		["Авеанар - Гордунни"] = "Default",
+		["Авеанар - Ревущий фьорд"] = "Afenar_Druid",
+		["Йоффо - Гордунни"] = "Default",
+		["Какделатам - Ясеневый лес"] = "Default",
+		["Авенара - Ясеневый лес"] = "Default",
+		["Ололошкартош - Ясеневый лес"] = "Default",
+		["Авлеанаар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанаар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авлериэн - Ясеневый лес"] = "Default",
+		["Авеанаар - Ясеневый лес"] = "Default",
+		["Йофо - Черный Шрам"] = "Default",
+		["Афенар - Ясеневый лес"] = "Default",
+		["Авеанар - Король-лич"] = "Default",
+		["Аувенаар - Ясеневый лес"] = "Default",
+		["Авлеаар - Гордунни"] = "Default",
+		["Авлеанаар - Ясеневый лес"] = "Default",
+		["Эвиалия - Ясеневый лес"] = "Afenar_ShadowPriest",
+		["Авеанар - Ясеневый лес"] = "Default",
+		["Афенар - Ревущий фьорд"] = "Default",
+		["Веанар - Ясеневый лес"] = "Default",
+		["Венилаар - Ясеневый лес"] = "Default",
+		["Авлеанар - Ясеневый лес"] = "Default",
+		["Авлериан - Ясеневый лес"] = "Default",
+	},
+	["profiles"] = {
+		["Afenar_Warrior"] = {
+		},
+		["Default"] = {
+			["updateOnlyInCombat"] = true,
+			["mode"] = 3,
+		},
+		["Afenar_ShadowPriest"] = {
+			["updateOnlyInCombat"] = true,
+			["mode"] = 3,
+		},
+		["Afenar_Warlock"] = {
+		},
+		["Afenar_Druid"] = {
+			["updateOnlyInCombat"] = true,
+		},
+	},
+}

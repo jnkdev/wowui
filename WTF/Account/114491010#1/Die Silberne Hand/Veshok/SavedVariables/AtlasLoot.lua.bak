@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Veshok - Die Silberne Hand"] = "Veshok - Die Silberne Hand",
+	},
+	["AtlasLootVersion"] = "70702",
+}

@@ -1,0 +1,192 @@
+
+OmniCC4Config = {
+	["engine"] = "AniUpdater",
+	["groups"] = {
+		{
+			["id"] = "бафы",
+			["rules"] = {
+			},
+			["enabled"] = true,
+		}, -- [1]
+		{
+			["id"] = "Ignore",
+			["rules"] = {
+				"LossOfControl", -- [1]
+				"TotemFrame", -- [2]
+			},
+			["enabled"] = true,
+		}, -- [2]
+	},
+	["groupSettings"] = {
+		["бафы"] = {
+			["enabled"] = true,
+			["fontFace"] = "Fonts\\FRIZQT___CYR.TTF",
+			["styles"] = {
+				["seconds"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.00000000745058,
+					["g"] = 1,
+					["b"] = 0.1,
+				},
+				["minutes"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.00000000745058,
+					["g"] = 1,
+					["b"] = 1,
+				},
+				["soon"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.50000001490116,
+					["g"] = 0.1,
+					["b"] = 0.1,
+				},
+				["hours"] = {
+					["a"] = 1,
+					["r"] = 0.7,
+					["scale"] = 0.75000000372529,
+					["g"] = 0.7,
+					["b"] = 0.7,
+				},
+				["charging"] = {
+					["a"] = 0.8,
+					["r"] = 1,
+					["scale"] = 0.650000002235174,
+					["g"] = 0.98,
+					["b"] = 0.4,
+				},
+				["controlled"] = {
+				},
+			},
+			["effect"] = "pulse",
+			["yOff"] = 0,
+			["mmSSDuration"] = 0,
+			["anchor"] = "CENTER",
+			["spiralOpacity"] = 1.00999997742474,
+			["scaleText"] = true,
+			["xOff"] = 0,
+			["tenthsDuration"] = 0,
+			["fontOutline"] = "OUTLINE",
+			["minSize"] = 0.5,
+			["minEffectDuration"] = 30,
+			["minDuration"] = 2,
+			["fontSize"] = 18,
+		},
+		["base"] = {
+			["enabled"] = true,
+			["fontFace"] = "Fonts\\FRIZQT___CYR.TTF",
+			["fontSize"] = 16,
+			["effect"] = "none",
+			["scaleText"] = true,
+			["minEffectDuration"] = 2,
+			["minSize"] = 0,
+			["spiralOpacity"] = 0,
+			["minDuration"] = 2,
+			["xOff"] = 0,
+			["tenthsDuration"] = 0,
+			["fontOutline"] = "OUTLINE",
+			["anchor"] = "CENTER",
+			["mmSSDuration"] = 600,
+			["yOff"] = -7,
+			["styles"] = {
+				["soon"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.25000001117587,
+					["g"] = 0.1,
+					["b"] = 0.1,
+				},
+				["seconds"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.05000000819564,
+					["g"] = 1,
+					["b"] = 0.1,
+				},
+				["minutes"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 0.900000005960465,
+					["g"] = 1,
+					["b"] = 1,
+				},
+				["hours"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 0.700000002980232,
+					["g"] = 1,
+					["b"] = 1,
+				},
+				["charging"] = {
+					["a"] = 0.8,
+					["r"] = 1,
+					["scale"] = 0.75000000372529,
+					["g"] = 0.98,
+					["b"] = 0.4,
+				},
+				["controlled"] = {
+					["scale"] = 1.50000001490116,
+				},
+			},
+		},
+		["Ignore"] = {
+			["enabled"] = false,
+			["fontFace"] = "Fonts\\FRIZQT___CYR.TTF",
+			["styles"] = {
+				["seconds"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.00000000745058,
+					["g"] = 1,
+					["b"] = 0.1,
+				},
+				["minutes"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.00000000745058,
+					["g"] = 1,
+					["b"] = 1,
+				},
+				["soon"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["scale"] = 1.25000001117587,
+					["g"] = 0.1,
+					["b"] = 0.1,
+				},
+				["hours"] = {
+					["a"] = 1,
+					["r"] = 0.7,
+					["scale"] = 0.75000000372529,
+					["g"] = 0.7,
+					["b"] = 0.7,
+				},
+				["charging"] = {
+					["a"] = 0.8,
+					["r"] = 1,
+					["scale"] = 0.650000002235174,
+					["g"] = 0.98,
+					["b"] = 0.4,
+				},
+				["controlled"] = {
+				},
+			},
+			["effect"] = "pulse",
+			["yOff"] = 0,
+			["mmSSDuration"] = 0,
+			["anchor"] = "CENTER",
+			["spiralOpacity"] = 1.00999997742474,
+			["scaleText"] = true,
+			["xOff"] = 0,
+			["tenthsDuration"] = 0,
+			["fontOutline"] = "OUTLINE",
+			["minSize"] = 0.5,
+			["minEffectDuration"] = 30,
+			["minDuration"] = 2,
+			["fontSize"] = 19,
+		},
+	},
+	["version"] = "7.0.1",
+}

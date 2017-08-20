@@ -1,0 +1,14 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Ревущий фьорд.Афенар"] = {
+				["faction"] = "Horde",
+			},
+		},
+	},
+}

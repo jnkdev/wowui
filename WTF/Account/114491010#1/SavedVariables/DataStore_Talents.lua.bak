@@ -1,0 +1,17 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+	["global"] = {
+		["PRIEST"] = {
+			["Locale"] = "ruRU",
+			["Version"] = 22293,
+		},
+	},
+}

@@ -1,0 +1,373 @@
+commit 05b72dd9ad73d31664bfce8157fa91410ef2d544
+Author: yess <yess@xan.at>
+Date:   Wed Mar 29 14:37:34 2017 +0200
+
+    Added OrderHallMissionFrame
+
+commit 320c1e9c889e7030d0afb1837acba74977c5fd76
+Author: yess <yess@xan.at>
+Date:   Wed Mar 29 08:18:17 2017 +0200
+
+    toc update
+
+commit 4dd78ed84ffeb62661ea458cb34e52f5c9a5fff2
+Author: yess <yess@xan.at>
+Date:   Fri Aug 19 20:13:09 2016 +0200
+
+    Readded scaling with ctrl + scroll
+
+commit 16d02b7a77977e15b9a9316eeac420bee51f47aa
+Author: yess <yess@xan.at>
+Date:   Thu Aug 18 12:04:30 2016 +0200
+
+    Added the new WardrobeFrame
+
+commit e0b85ebff4b97c6ac5e7202134f0e0b46002252a
+Author: yess <yess@xan.at>
+Date:   Wed Aug 17 19:23:29 2016 +0200
+
+    Fixed collections frame not moveable
+
+commit 1f65fe38f14118eb0a32eeceab5e0bbecbdfb3fa
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sat Aug 6 12:06:14 2016 +0000
+
+    The quest progress tracker can no longer be moved.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@68 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 8f28bc60131f30c73cd0e0370cc7ff064c857641
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sat Aug 6 04:10:33 2016 +0000
+
+    Fixed scrolling in dungeon journal, ticket #45
+    Fixed taint errors, ticket #46 & #44
+    Added check for is "IsMovable", ticket #42 & #35
+    Removed scaling & saving of frames.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@67 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit efe530661daf31004072e3bf15d6abf7256618e3
+Author: alexfolland <alexfolland@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Tue Aug 2 04:36:09 2016 +0000
+
+    fix something
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@66 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 8154dcd0a84f65ade5352d09d3d10e4b1fa08582
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Thu Jul 21 03:44:11 2016 +0000
+
+    update toc
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@64 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 568344d41c986f0d45a37352664f794ef3d36c4c
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Jun 24 18:01:21 2015 +0000
+
+    update toc
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@62 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit e01f098912acd95a054938bd3b86e3d103ab719b
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Mon May 4 01:53:55 2015 +0000
+
+    Fixed quest and collections frame.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@60 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit b1d393d9fc0bd7bbe15d33e5eb621182e060e846
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Feb 15 12:28:48 2015 +0000
+
+    Make the collapsed quest tracker clickthrough again.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@58 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit f40d2def57f9985592b76bbc2d7af3f2f6e02140
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Jan 7 03:46:05 2015 +0000
+
+    .)The Quest Tracker is now temporary movable.
+    .)The Garrison Report frame is now moveable.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@56 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 9a2d207388d6ededa7f1b7db5a2c3f218e0c19f7
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Fri Dec 19 15:27:59 2014 +0000
+
+    Added support for the Work Orders window.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@54 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit c46f22bd436b1a8814ceec66571891cf30b9ce5c
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Dec 14 04:29:01 2014 +0000
+
+    Fix GroupFinder frame.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@52 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 8b9813af25c54e40f31d5a7500506186832f52d4
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Dec 14 04:14:42 2014 +0000
+
+    .) Added support for Garrison frame, ticket #30
+    .) Added support for Mailbox send frame, ticket #32
+    .) Fixed PVPFrame, ticket #31
+    .) Fixed Color Picker so that only the title will move the frame. Ticket #28
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@50 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 1663b76cc4963b3405d631173abb7abedb1a1ad2
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Oct 15 16:56:24 2014 +0000
+
+    Update TOC
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@48 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 0e6433827a303137e85b13eedf8848df5246984c
+Author: EricTheDad <EricTheDad@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Thu Sep 18 08:42:52 2014 +0000
+
+    These are the modifications I wrote you about.  Just ferreted out the new frame names for some things, fixed the guild panel title bar not being dragable and deleted a few unnecessary SetMoveHandler calls that were for panels that no longer exist or were handled further down in the function.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@46 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 2b7281f9e7e8f38a2a4244efcab6c6abcf9de99f
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Sep 11 10:06:25 2013 +0000
+
+    Update TOC
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@44 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit ec6a8045a1e3d1d929b18ae0c43c19b23449372c
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Mon Jul 8 00:18:26 2013 +0000
+
+    .)Update TOC
+    .)Added ColorPickerFrame ticket #24
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@43 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 49c7e0d6b684606f9064eab3bdf061be1f1c7039
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Mon Mar 25 22:25:32 2013 +0000
+
+    Update TOC
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@41 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit ec99a46f6e573ebe50b188b0688849dd84cdba28
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Mon Dec 17 03:32:00 2012 +0000
+
+    Fixed db not set when an addon was loaded before Blizzmove. Ticket #21
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@40 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit a58b7a09d047724db9abb81ec246129a533916f4
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Dec 16 04:31:09 2012 +0000
+
+    Fix LOD issue, ticket #20
+    Update TOC
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@38 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 475448b2ea64d972e6948f2e3d95ae7fc1404e75
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Aug 29 00:02:18 2012 +0000
+
+    added mounts and pets frame.
+    TOC update.
+    
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@36 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 2b3cc0c9cc7429b0195ee798cedb68405c5f3db1
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sat Dec 10 03:42:17 2011 +0000
+
+    Fixed EncounterJournal.
+    Added RaidFinder.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@34 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 4b3ba494cd181e2a0fd800c0ae1c3cdef4a7664c
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Dec 4 02:30:02 2011 +0000
+
+    Added VoidStorage and TransmogrifyFrame.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@33 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 91b14ddf09cd17fa37220b3b2b3767785046a6a1
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sat Jul 2 19:27:14 2011 +0000
+
+    Added the Dungeon Journal
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@31 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 18cd4247a2b087ac88b04e3a52060c16b4c6ab99
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Fri Apr 29 00:40:49 2011 +0000
+
+    Added archeology frame.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@29 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 067f25b01122d4b204a9ac99ef696bec108b668b
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Thu Mar 24 01:21:24 2011 +0000
+
+    Removed quest tracker because of problems. Needs more Testing.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@27 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 6447d6e3324e85a438eb4fe1c3fe5c95e24ffcb0
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Tue Mar 22 06:29:05 2011 +0000
+
+    Added quest tracker frame.
+    Added looking for guild frame (patch 4.1)
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@25 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 460e8314cdb939a55449fdbaa3fb11bc7ceee800
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Fri Oct 22 15:24:27 2010 +0000
+
+    Fixed scrolling.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@23 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 4d38a5cc02dddeda7370023dedee43c6c74ff079
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Oct 13 23:49:58 2010 +0000
+
+    Added guild frame
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@21 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 939de8c4f53f0ebbb99dcaee2670f29593a0a268
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Oct 13 19:03:50 2010 +0000
+
+    TOC update
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@19 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 9e4c2f3382a640805463624d4b91fdb906bdde9b
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Oct 3 00:29:33 2010 +0000
+
+    Fixed PVP frame not moving in patch 4.0.1
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@18 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit d6525ddea97e14d65599a2ac7cd3ecf88e8a9e25
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Thu Apr 15 01:00:47 2010 +0000
+
+    added trade window.
+    fixed quest window.
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@16 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 872566eea7001b8718ad9a5ba7a3af348fc376fb
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Mon Jan 4 01:47:52 2010 +0000
+
+    Make the raid browser movable
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@15 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 2c7f8732c1b1d07a7d6d72f1714f1eaf3452b489
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Jan 3 20:38:43 2010 +0000
+
+    fix toc
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@13 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 7b04b0478f04c0e56dcff6b38b315a846d67f893
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sun Jan 3 20:36:18 2010 +0000
+
+    added Dungeonfinder frame
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@12 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit d0a081e39156184e8a572eeca69819cc50c17fa6
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Fri Dec 11 14:52:20 2009 +0000
+
+    toc update
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@10 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 4f3093cb0c6713447d960ce9e8c4c0345513cc38
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Sat May 9 06:59:11 2009 +0000
+
+    fixed auction frame not movable
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@8 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 323667337f29f2eca3274e2c54b98ee0ed9b79f5
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Mon Mar 23 21:21:55 2009 +0000
+
+    added: option to reset the frames
+    fixed an error with SetPoint() maybe
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@7 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 9c407fd8ecda5b3f5d3e093759f246fe5129b9a1
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Fri Feb 27 03:49:32 2009 +0000
+
+    fixed chat massages
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@6 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 97790ce45cf41e756a8bcf2e8f8c3a71a36f0eb3
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Wed Feb 18 05:34:50 2009 +0000
+
+    added: interface frame to the list
+    added: control+click will add/remove a frame to the saved list
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@4 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 4af58ccf4f831297dc01bb79378bf3854d555ede
+Author: yess <yess@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Tue Feb 17 07:15:22 2009 +0000
+
+    initial commit
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@2 da1bf953-3f43-4904-8a36-f5fd9803eec7
+
+commit 3f22d619d86ed648ecf9b088c17110a14cb0a77e
+Author: root <root@da1bf953-3f43-4904-8a36-f5fd9803eec7>
+Date:   Tue Feb 17 07:10:00 2009 +0000
+
+    "blizzmove/mainline: Initial Import"
+    
+    git-svn-id: svn://svn.wowace.com/wow/blizzmove/mainline/trunk@1 da1bf953-3f43-4904-8a36-f5fd9803eec7
+

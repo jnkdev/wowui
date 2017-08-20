@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 3,
+			["NextWeeklyReset"] = "2016-07-27",
+		},
+		["Characters"] = {
+			["Default.Ревущий фьорд.Афенар"] = {
+				["lastUpdate"] = 1469307059,
+			},
+		},
+	},
+}

@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Exarion - Die Silberne Hand"] = "Exarion - Die Silberne Hand",
+	},
+	["AtlasLootVersion"] = "70701",
+}

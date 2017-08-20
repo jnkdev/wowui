@@ -1,0 +1,8 @@
+
+TidyPlatesOptions = {
+	["WelcomeShown"] = false,
+	["FriendlyAutomation"] = "No Automation",
+	["EnemyAutomation"] = "No Automation",
+	["primary"] = "Threat Plates",
+	["secondary"] = "Neon/|cFF3782D1Tank",
+}

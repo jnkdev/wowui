@@ -1,0 +1,17 @@
+VER 3 0000000000000002 "MS" "134154"
+/mountspecial
+END
+VER 3 0000000000000004 "No CombatText" "INV_Misc_QuestionMark"
+/console floatingCombatTextCombatDamage 0
+/console floatingCombatTextCombatHealing 0
+END
+VER 3 0000000000000001 "Rage" "SPELL_NATURE_UNYEILDINGSTAMINA"
+/i HEAL: heil auch bitte!
+/i Jäger/Warlock: stell dein Pet bitte auf defensiv!
+/i an den Rest: lasst mich bitte pullen!
+/i Vielen Dank für eure Aufmerksamkeit
+END
+VER 3 0000000000000003 "Rc+Om" "132481"
+/recount show
+/omen show
+END

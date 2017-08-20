@@ -1,0 +1,72 @@
+
+PokemonTrainerDB = {
+	["namespaces"] = {
+		["FrameCombatDisplay"] = {
+			["profiles"] = {
+				["Default"] = {
+					["nactivealpha"] = 0.7,
+					["bg"] = true,
+					["highlight_active_g"] = 0.196078431372549,
+					["nactivealpha_use"] = true,
+					["ability_zoom"] = true,
+					["resize"] = false,
+					["highlight_active_r"] = 0,
+					["PTEnemy_icon"] = "TOPLEFT",
+					["PTPlayer_icon"] = "TOPRIGHT",
+					["bg_a"] = 0.530000001192093,
+					["bg_g"] = 0.0980392156862745,
+					["highlight_active_b"] = 1,
+					["bg_r"] = 0.2,
+					["ability_highlight_blizzard"] = false,
+					["bg_b"] = 0.298039215686275,
+				},
+			},
+		},
+		["AuctionSearch"] = {
+		},
+		["HealBandageButtons"] = {
+		},
+		["WildPetTooltip"] = {
+		},
+		["TooltipCombatDisplay"] = {
+			["profiles"] = {
+				["Default"] = {
+					["pos_x"] = 301,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Авлеар - Ревущий фьорд"] = "Default",
+		["Авеанаар - Гордунни"] = "Default",
+		["Авлеаар - Гордунни"] = "Default",
+		["Авеанар - Ревущий фьорд"] = "Default",
+		["Авеанир - Ревущий фьорд"] = "Default",
+		["Авенилар - Ревущий фьорд"] = "Default",
+		["Афенар - Гордунни"] = "Default",
+		["Авлеаар - Ревущий фьорд"] = "Default",
+		["Афенар - Король-лич"] = "Default",
+		["Авлеанаар - Ревущий фьорд"] = "Default",
+		["Авлеанар - Ревущий фьорд"] = "Default",
+		["Авеанаар - Ревущий фьорд"] = "Default",
+		["Авеарин - Ревущий фьорд"] = "Default",
+		["Айлиин - Ясеневый лес"] = "Default",
+		["Веанар - Ревущий фьорд"] = "Default",
+		["Авеанара - Дракономор"] = "Default",
+		["Авенара - Ясеневый лес"] = "Default",
+		["Авеанар - Гордунни"] = "Default",
+		["Йофо - Черный Шрам"] = "Default",
+		["Афенар - Ревущий фьорд"] = "Default",
+		["Йоффо - Гордунни"] = "Default",
+		["Аувенаар - Ясеневый лес"] = "Default",
+		["Какделатам - Ясеневый лес"] = "Default",
+		["Авеанар - Король-лич"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["version"] = "6.1.1",
+			["alpha"] = true,
+		},
+	},
+}
+PTDevDB = nil

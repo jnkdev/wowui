@@ -1,0 +1,87 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Exarion - Die Silberne Hand"] = "Exarion - Die Silberne Hand",
+	},
+	["profiles"] = {
+		["Exarion - Die Silberne Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Buttons"] = {
+					["LeftButton"] = false,
+					["RightButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -273.8890975527731,
+					["x"] = 128.3335365667086,
+					["w"] = 203.3334134219319,
+					["h"] = 103.333294315811,
+				},
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
+				["RowHeight"] = 13,
+				["RowSpacing"] = 0,
+			},
+			["GroupFilters"] = {
+				false, -- [1]
+			},
+			["ReportLines"] = 5,
+			["ZoneFilters"] = {
+				["arena"] = false,
+				["pvp"] = false,
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 203.3334134219319,
+			["MainWindowHeight"] = 103.333294315811,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "Burg Utgarde",
+			["RealtimeWindows"] = {
+				["Realtime_Latency_LAG"] = {
+					"Latency", -- [1]
+					"LAG", -- [2]
+					"", -- [3]
+					154.4449102360827, -- [4]
+					242.2222507894375, -- [5]
+					171.1112594233306, -- [6]
+					132.0000030118789, -- [7]
+					false, -- [8]
+				},
+				["Realtime_!RAID_DAMAGE"] = {
+					"!RAID", -- [1]
+					"DAMAGE", -- [2]
+					"Raid DPS", -- [3]
+					154.444840141446, -- [4]
+					192.222274473758, -- [5]
+					200.0000629756501, -- [6]
+					231.9999819287265, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Downstream Traffic_DOWN_TRAFFIC"] = {
+					"Downstream Traffic", -- [1]
+					"DOWN_TRAFFIC", -- [2]
+					"", -- [3]
+					0, -- [4]
+					-3.504731837563912e-005, -- [5]
+					200.0000629756501, -- [6]
+					231.9999468814082, -- [7]
+					false, -- [8]
+				},
+			},
+			["MainWindowMode"] = 2,
+		},
+	},
+}

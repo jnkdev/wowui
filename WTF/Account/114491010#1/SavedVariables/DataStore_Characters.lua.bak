@@ -1,0 +1,30 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Ревущий фьорд.Афенар"] = {
+				["XPMax"] = 400,
+				["played"] = 6416,
+				["isResting"] = false,
+				["lastUpdate"] = 1469308498,
+				["class"] = "Жрец",
+				["race"] = "Эльф крови",
+				["level"] = 1,
+				["XP"] = 31,
+				["RestXP"] = 2,
+				["money"] = 0,
+				["gender"] = 2,
+				["englishClass"] = "PRIEST",
+				["subZone"] = "Остров Солнечного Скитальца",
+				["faction"] = "Horde",
+				["englishRace"] = "BloodElf",
+				["zone"] = "Остров Солнечного Скитальца",
+				["lastLogoutTimestamp"] = 1469308498,
+				["name"] = "Афенар",
+			},
+		},
+	},
+}

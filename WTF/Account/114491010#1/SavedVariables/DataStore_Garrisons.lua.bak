@@ -1,0 +1,13 @@
+
+DataStore_GarrisonsDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Ревущий фьорд.Афенар"] = {
+				["lastUpdate"] = 1469307060,
+			},
+		},
+	},
+}

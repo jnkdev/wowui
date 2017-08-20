@@ -1,0 +1,88 @@
+
+PetJournalEnhancedDB = {
+	["namespaces"] = {
+		["Sorting"] = {
+			["global"] = {
+				["filtering"] = {
+					["favoritesOnly"] = false,
+					["hiddenSpecies"] = true,
+					["breed"] = {
+						true, -- [1]
+						true, -- [2]
+					},
+				},
+				["sorting"] = {
+					["order"] = 2,
+					["favoritesFirst"] = true,
+				},
+				["hiddenSpecies"] = {
+					[1634] = false,
+					[757] = true,
+					[1545] = false,
+					[124] = true,
+					[217] = true,
+					[280] = true,
+					[107] = true,
+					[187] = true,
+					[281] = false,
+					[86] = false,
+					[121] = true,
+					[180] = true,
+					[1563] = false,
+					[283] = false,
+					[240] = true,
+					[758] = true,
+					[1127] = true,
+					[282] = true,
+					[1168] = true,
+					[155] = true,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Авлеар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанаар - Гордунни"] = "Default",
+		["Авеанир - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авенилар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Афенар - Гордунни"] = "Default",
+		["Авлеаар - Ревущий фьорд"] = "Afenar_Warlock",
+		["Афенар - Король-лич"] = "Default",
+		["Авлеанар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанир - Ясеневый лес"] = "Default",
+		["Авеарин - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Айлиин - Ясеневый лес"] = "Default",
+		["Веанар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанара - Дракономор"] = "Default",
+		["Авеанар - Гордунни"] = "Default",
+		["Авеанар - Ревущий фьорд"] = "Afenar_Druid",
+		["Йоффо - Гордунни"] = "Default",
+		["Какделатам - Ясеневый лес"] = "Default",
+		["Авенара - Ясеневый лес"] = "Default",
+		["Sco - Tarren Mill"] = "Default",
+		["Ололошкартош - Ясеневый лес"] = "Default",
+		["Авлеанаар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авеанаар - Ревущий фьорд"] = "Afenar_ShadowPriest",
+		["Авлериэн - Ясеневый лес"] = "Default",
+		["Авеанаар - Ясеневый лес"] = "Default",
+		["Йофо - Черный Шрам"] = "Default",
+		["Афенар - Ясеневый лес"] = "Default",
+		["Авеанар - Король-лич"] = "Default",
+		["Аувенаар - Ясеневый лес"] = "Default",
+		["Авлериан - Ясеневый лес"] = "Default",
+		["Авлеанаар - Ясеневый лес"] = "Default",
+		["Эвиалия - Ясеневый лес"] = "Afenar_ShadowPriest",
+		["Авеанар - Ясеневый лес"] = "Default",
+		["Афенар - Ревущий фьорд"] = "Default",
+		["Веанар - Ясеневый лес"] = "Default",
+		["Венилаар - Ясеневый лес"] = "Default",
+		["Авлеанар - Ясеневый лес"] = "Default",
+		["Авлеаар - Гордунни"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["Afenar_Warrior"] = {
+		},
+	},
+}

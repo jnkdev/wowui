@@ -1,0 +1,554 @@
+
+QuestHelper_Pref = {
+	["track"] = false,
+	["submit_nag_next_time"] = 1362299319.9953,
+	["arrow"] = true,
+	["submit_nag_type"] = "OFF",
+	["solo"] = true,
+}
+QuestHelper_UID = "NVn9qjZ1wYgSY1b6M3ywvrVqSHG0Uszr"
+QuestHelper_SaveDate = 1361624653
+QuestHelper_Errors = {
+	["version"] = 1,
+	["crash"] = {
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\AddOns\\QuestHelper\\help.lua:282: attempt to call method 'SetShare' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["silent"] = false,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: in function `SetShare'\nInterface\\AddOns\\QuestHelper\\help.lua:282: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:15",
+		}, -- [1]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = false,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\AddOns\\QuestHelper\\help.lua:154: attempt to call method 'HideTracker' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [2]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [3]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [4]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [5]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [6]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 303,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [7]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "C stack overflow",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [8]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [9]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 3,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `HideTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:154: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:46",
+		}, -- [10]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = false,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\AddOns\\QuestHelper\\help.lua:151: attempt to call method 'ShowTracker' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [11]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [12]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [13]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [14]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [15]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 202,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [16]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "C stack overflow",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [17]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [18]
+		{
+			["game_version"] = "5.1.0",
+			["toc_version"] = "5.0.5.267r",
+			["silent"] = true,
+			["quests"] = "Schamane (0)\n	Die Aufgabe eines Traumsuchers (27397)\nSchwarzfelstiefen (0)\n	Das Herz des Berges (27596)\n	Der Grimmige Säufer (27589)\n",
+			["message"] = "Interface\\FrameXML\\UIPanelTemplates.lua:500: attempt to perform arithmetic on field 'cursorOffset' (a nil value)",
+			["pinfo"] = "Level 55 Orc Schamane on Die Silberne Hand",
+			["count"] = 2,
+			["locale"] = "deDE",
+			["addons"] = "  Atlas, v1.23.0\n  AtlasOutdoorRaids, v1.23.0\n  AtlasTransportation, v1.23.0\n  AtlasBurningCrusade, v1.23.0\n  AtlasCataclysm, v1.23.0\n  AtlasClassicWoW, v1.23.0\n  AtlasDungeonLocs, v1.23.0\n  AtlasScenarios, v1.23.0\n  AtlasWrathoftheLichKing, v1.23.0\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v7.04.01|r\n  AtlasLootLoader, vv7.04.01\n  AtlasLootCataclysm, vv7.04.01\n  AtlasLootClassicWoW, vv7.04.01\n  AtlasLootMistsofPandaria, vv7.04.01\n  AtlasLootSource, vv0.3\n  BagBrother\n  Bagnon, v5.1.2\n  MikScrollingBattleText, v5.7.125\n  Omen, v3.1.8\n  OmniCC, v5.1.3\n  Prat30, vr899      \n  Prat30HighCPUUsageModules\n  Prat30Libraries\n  Quartz, v3.1.1\n  QuestHelper, v5.0.5.267r\n  QHDatabase, v5.0.5.267r\n  QHDatadeDE, v5.0.5.267r\n  SellFish, v2.1.10\n  SexyMap, v2.4\n  XPerl, v3.6.15\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlRaidAdmin\n  XPerlRaidFrames\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlTargetTarget\n  XPerlTarget\n  DBMCore\n",
+			["stack"] = "[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\FrameXML\\UIPanelTemplates.lua:500: in function `ScrollingEdit_OnUpdate'\nInterface\\FrameXML\\UIPanelTemplates.lua:477: in function `ScrollingEdit_OnTextChanged'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:579: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:543: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `ShowTracker'\nInterface\\AddOns\\QuestHelper\\help.lua:151: in function `?'\nInterface\\AddOns\\QuestHelper\\help.lua:966: in function `QuestHelper_SlashCommand'\nInterface\\AddOns\\QuestHelper\\help.lua:981: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4388: in function <Interface\\FrameXML\\ChatFrame.lua:4334>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4082: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4121: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
+			["local_version"] = "5.0.5.267r",
+			["timestamp"] = "2013-02-23 14:06:48",
+		}, -- [19]
+	},
+}
+QuestHelper_Collector = {
+	["created"] = 1361624658,
+	["267r"] = {
+		["Die Silberne Hand"] = {
+			["5.1.0"] = {
+				["deDE"] = {
+					["Horde"] = {
+						[1361624658] = {
+							["monster"] = {
+								[41138] = {
+									["encounters"] = {
+										{
+											["minrange"] = 11,
+											["maxrange"] = 28,
+											["loc"] = {
+												["y"] = 0.1120472550392151,
+												["x"] = 0.4050887227058411,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											},
+										}, -- [1]
+										{
+											["minrange"] = 11,
+											["maxrange"] = 28,
+											["loc"] = {
+												["y"] = 0.1140186786651611,
+												["x"] = 0.4058590531349182,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											},
+										}, -- [2]
+									},
+									["reaction"] = {
+										[8] = 2,
+									},
+									["name"] = {
+										["Verteidiger der Okril'lon"] = 2,
+									},
+								},
+								[51791] = {
+									["encounters"] = {
+										{
+											["minrange"] = 10,
+											["maxrange"] = 11,
+											["loc"] = {
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											},
+										}, -- [1]
+									},
+									["reaction"] = {
+										[8] = 1,
+									},
+									["name"] = {
+										["Verteidiger der Okril'lon"] = 1,
+									},
+								},
+							},
+							["warp"] = {
+								{
+									["current"] = {
+										["y"] = 0.122079991183403,
+										["x"] = 0.4303493083141096,
+										["c"] = 2,
+										["z"] = 40,
+										["delayed"] = 0,
+									},
+									["last"] = {
+										["y"] = 0.1048372387886047,
+										["x"] = 0.4067133665084839,
+										["c"] = 2,
+										["z"] = 40,
+										["delayed"] = 0,
+									},
+								}, -- [1]
+							},
+							["PseudoIDsMin"] = -1,
+							["zone"] = {
+								["Verwüstete Lande@@Verwüstete Lande@@Feste Schreckensfels@@Feste Schreckensfels"] = {
+									["mapname"] = "BlastedLands",
+									["border"] = {
+										["locs"] = {
+											{
+												["y"] = 0.810899019241333,
+												["x"] = 0.5118974447250366,
+												["c"] = 2,
+												["z"] = 0,
+												["delayed"] = 0,
+											}, -- [1]
+										},
+									},
+									["update"] = {
+										["locs"] = {
+											{
+												["y"] = 0.1048372387886047,
+												["x"] = 0.4067133665084839,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [1]
+											{
+												["y"] = 0.1050360202789307,
+												["x"] = 0.4054917097091675,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [2]
+											{
+												["y"] = 0.1058439612388611,
+												["x"] = 0.4051674008369446,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [3]
+											{
+												["y"] = 0.1058439612388611,
+												["x"] = 0.4051674008369446,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [4]
+											{
+												["y"] = 0.1101746559143066,
+												["x"] = 0.4042381644248962,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [5]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [6]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [7]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [8]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [9]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [10]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [11]
+											{
+												["y"] = 0.1160536408424377,
+												["x"] = 0.4060511589050293,
+												["c"] = 2,
+												["z"] = 40,
+												["delayed"] = 0,
+											}, -- [12]
+										},
+									},
+								},
+							},
+							["fishing"] = {
+							},
+							["flight_master"] = {
+							},
+							["achievement"] = {
+							},
+							["PseudoIDs"] = {
+								["gold"] = -1,
+							},
+							["object"] = {
+							},
+							["worldloot"] = {
+							},
+							["item"] = {
+							},
+							["flight_times"] = {
+							},
+							["quest"] = {
+								[27596] = {
+									["groupcount"] = 0,
+									["daily"] = false,
+									["criteria"] = {
+										["1"] = {
+											["type"] = "item",
+											["text"] = "Das Herz des Berges: 0/1",
+										},
+									},
+									["special_item"] = false,
+									["level"] = 55,
+									["name"] = "Das Herz des Berges",
+									["tag"] = "Dungeon",
+								},
+								[27397] = {
+									["groupcount"] = 0,
+									["daily"] = false,
+									["criteria"] = {
+										["1"] = {
+											["type"] = "item",
+											["text"] = " : 0/1",
+										},
+										["3"] = {
+											["type"] = "item",
+											["text"] = " : 0/5",
+										},
+										["2"] = {
+											["type"] = "item",
+											["text"] = " : 0/1",
+										},
+									},
+									["special_item"] = false,
+									["level"] = 20,
+									["name"] = "Die Aufgabe eines Traumsuchers",
+									["tag"] = "Dungeon",
+								},
+								[27589] = {
+									["groupcount"] = 0,
+									["daily"] = false,
+									["criteria"] = {
+										["1"] = {
+											["type"] = "monster",
+											["text"] = "Hurley Pestatem getötet: 0/1",
+										},
+										["3"] = {
+											["type"] = "monster",
+											["text"] = "Ribbly Schraubstutz getötet: 0/1",
+										},
+										["2"] = {
+											["type"] = "monster",
+											["text"] = "Stöpsel Zapfring getötet: 0/1",
+										},
+									},
+									["special_item"] = false,
+									["level"] = 56,
+									["name"] = "Der Grimmige Säufer",
+									["tag"] = "Dungeon",
+								},
+							},
+							["hearth"] = {
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}
+QuestHelper_Collector_Version = 8
+QHDB_Export = nil

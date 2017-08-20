@@ -1,0 +1,5 @@
+
+CurrencyTrackerDB = {
+	["Die Silberne Hand"] = {
+	},
+}

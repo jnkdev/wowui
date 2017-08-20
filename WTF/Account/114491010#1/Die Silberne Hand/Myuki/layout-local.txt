@@ -1,0 +1,15 @@
+Version: 1
+Frame: ItemRefTooltip
+FrameLevel: 4
+Anchor: CENTER
+X: -82
+Y: -203
+W: 128
+H: 64
+Frame: DBMMinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -136
+Y: -115
+W: 32
+H: 32

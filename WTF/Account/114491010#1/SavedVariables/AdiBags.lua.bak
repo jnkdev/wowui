@@ -1,0 +1,195 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+					["overrides"] = {
+						[131933] = "Miscellaneous#Miscellaneous",
+					},
+				},
+			},
+		},
+		["Rogue Lockboxes"] = {
+		},
+		["DataSource"] = {
+		},
+		["Junk"] = {
+		},
+		["PT3Filter"] = {
+		},
+		["ItemLevel"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colorScheme"] = "level",
+				},
+			},
+		},
+		["Chests and Bags"] = {
+		},
+		["ItemCategory"] = {
+		},
+		["Garrison"] = {
+		},
+		["NewItem"] = {
+		},
+		["MoneyFrame"] = {
+		},
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["armorTypes"] = true,
+				},
+			},
+		},
+		["Legion"] = {
+		},
+		["DuplicateItem"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Афенар - Ревущий фьорд"] = {
+					["mergedSets"] = {
+						["Fishing"] = true,
+						["Cooking"] = true,
+					},
+				},
+			},
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Bound"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enableBoE"] = false,
+				},
+			},
+		},
+		["CurrencyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["shown"] = {
+						["Окровавленная монета"] = false,
+						["Искаженный временем знак"] = false,
+						["Частица тьмы"] = false,
+						["Малый амулет удачи"] = false,
+						["Даларанский знак ювелира"] = false,
+						["Garrison Resources"] = false,
+						["Порочная энергия Смертокрыла"] = false,
+						["Большой амулет удачи"] = false,
+						["Знак Древа Жизни"] = false,
+						["Фрагмент артефакта"] = false,
+						["Жетон прославленного ювелира"] = false,
+						["Печать закаленной судьбы"] = false,
+						["Награда гурмана"] = false,
+						["Печать чемпиона"] = false,
+						["Очки чести"] = false,
+						["Призовой купон ярмарки Новолуния"] = false,
+						["Закаленная в бою печать"] = false,
+						["Жетон Железной Лапы"] = false,
+					},
+				},
+			},
+		},
+		["Hearthstones"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Авлеар - Ревущий фьорд"] = "Default",
+		["Авеанаар - Гордунни"] = "Default",
+		["Авеанир - Ревущий фьорд"] = "Default",
+		["Веанар - Ясеневый лес"] = "Default",
+		["Авеанар - Король-лич"] = "Default",
+		["Авлеаар - Ревущий фьорд"] = "Default",
+		["Афенар - Король-лич"] = "Default",
+		["Авлеанар - Ревущий фьорд"] = "Default",
+		["Авеанир - Ясеневый лес"] = "Default",
+		["Авеарин - Ревущий фьорд"] = "Default",
+		["Айлиин - Ясеневый лес"] = "Default",
+		["Веанар - Ревущий фьорд"] = "Default",
+		["Авеанара - Дракономор"] = "Default",
+		["Ymona - Aegwynn"] = "Default",
+		["Shinsu - Die Silberne Hand"] = "Default",
+		["Авлеаар - Гордунни"] = "Default",
+		["Авеанар - Ревущий фьорд"] = "Default",
+		["Йоффо - Гордунни"] = "Default",
+		["Какделатам - Ясеневый лес"] = "Default",
+		["Авенара - Ясеневый лес"] = "Default",
+		["Sco - Tarren Mill"] = "Default",
+		["Ололошкартош - Ясеневый лес"] = "Default",
+		["Авлеанаар - Ревущий фьорд"] = "Default",
+		["Авеанаар - Ревущий фьорд"] = "Default",
+		["Авлериэн - Ясеневый лес"] = "Default",
+		["Авеанаар - Ясеневый лес"] = "Default",
+		["Йофо - Черный Шрам"] = "Default",
+		["Афенар - Ясеневый лес"] = "Default",
+		["Авлериан - Ясеневый лес"] = "Default",
+		["Авеанар - Гордунни"] = "Default",
+		["Авлеанаар - Ясеневый лес"] = "Default",
+		["Афенар - Гордунни"] = "Default",
+		["Авеанар - Ясеневый лес"] = "Default",
+		["Афенар - Ревущий фьорд"] = "Default",
+		["Аувенаар - Ясеневый лес"] = "Default",
+		["Венилаар - Ясеневый лес"] = "Default",
+		["Авлеанар - Ясеневый лес"] = "Default",
+		["Авенилар - Ревущий фьорд"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["virtualStacks"] = {
+				["notWhenTrading"] = 3,
+				["stackable"] = true,
+				["incomplete"] = true,
+			},
+			["columnWidth"] = {
+				["Bank"] = 12,
+				["Backpack"] = 8,
+			},
+			["maxHeight"] = 0.5,
+			["skin"] = {
+				["ReagentBankColor"] = {
+					0.125490196078431, -- [1]
+					0.0313725490196078, -- [2]
+					0.235294117647059, -- [3]
+					0.629999995231628, -- [4]
+				},
+				["BackpackColor"] = {
+					0.125490196078431, -- [1]
+					0.0313725490196078, -- [2]
+					0.235294117647059, -- [3]
+					0.630120277404785, -- [4]
+				},
+				["BankColor"] = {
+					0.125490196078431, -- [1]
+					0.0313725490196078, -- [2]
+					0.235294117647059, -- [3]
+					0.629999995231628, -- [4]
+				},
+				["border"] = "None",
+				["background"] = "Blizzard Dialog Background Gold",
+				["borderWidth"] = 1,
+				["insets"] = 1,
+			},
+			["positions"] = {
+				["anchor"] = {
+					["xOffset"] = -202.391967773438,
+					["yOffset"] = 202.233337402344,
+				},
+				["Backpack"] = {
+					["xOffset"] = -478.514466897264,
+					["point"] = "TOPRIGHT",
+					["yOffset"] = -257.258780340118,
+				},
+				["Bank"] = {
+					["xOffset"] = 52.880845385635,
+					["yOffset"] = -102.746241708694,
+				},
+			},
+			["compactLayout"] = true,
+			["rightClickConfig"] = false,
+			["qualityOpacity"] = 0.7,
+			["scale"] = 0.9,
+		},
+	},
+}

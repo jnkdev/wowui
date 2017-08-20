@@ -1,0 +1,15 @@
+Version: 1
+Frame: SkadaBarWindowSkada
+FrameLevel: 1
+Anchor: BOTTOM
+X: 304
+Y: 59
+W: 202
+H: 98
+Frame: DBMMinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -136
+Y: -115
+W: 32
+H: 32

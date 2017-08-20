@@ -1,0 +1,57 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1356633307,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[19:20:29]|r|c00000000|r |Hchannel:channel:1|h[1] |h Channel beigetreten: |Hchannel:1|h[1. Allgemein - Nördliches Schlingendorntal]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				69, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[19:20:29]|r|c00000000|r |Hchannel:channel:3|h[3] |h Channel beigetreten: |Hchannel:3|h[3. LokaleVerteidigung - Nördliches Schlingendorntal]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				71, -- [5]
+			}, -- [2]
+			{
+				"|cff979797[19:24:42]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Kälteschauer:6|h|cffd84e4e86|r:|cffc41e3aKälteschauer|r|h|cffd8d8d8]|r ist jetzt online.", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [3]
+			{
+				"|cff979797[19:28:03]|r|c00000000|r |cffc41e3aKälteschauer|r ist jetzt offline.", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [4]
+			{
+				"|cff979797[19:28:20]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Mengilis:8|h|cffd84e4e43|r:|cff68ccefMengilis|r|h|cffd8d8d8]|r ist jetzt online.", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [5]
+			{
+				"|cff979797[19:32:11]|r|c00000000|r |cff68ccefMengilis|r ist jetzt offline.", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [6]
+			{
+				"|cff979797[19:35:07]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Sternenlord:10|h|cffd84e4e89|r:|cffff7c0aSternenlord|r|h|cffd8d8d8]|r ist jetzt online.", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [7]
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+ActionBarProfilesDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

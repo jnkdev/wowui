@@ -1,0 +1,378 @@
+VER 3 0000000000000052 "10. Zakuun" "INV_MISC_QUESTIONMARK"
+/ra Soakers 1 - Sco (Anleane), Thebrain, Skrend, Hippo
+/ra Soakers 2 - Obvious, Huben, Zuriaa, Shedd
+/ra DONT SOAK CLOSEST PILLAR TO GATE
+/ra Cavitation: spread (not hitting pillars, latent energy debuffs go behind raid
+/ra seeds to throne
+END
+VER 3 0000000000000054 "11. Xul'Horac" "INV_MISC_QUESTIONMARK"
+/ra DPS always prio ADDS
+/ra Void Surge = Purple
+/ra Fel Surge = Green
+/ra Black holes = Rogues/Wlock/Spriest
+/ra P3 stack under boss and BL + Ring
+/ra DK grips; Sco -> Mini -> Dashing -> Widow
+/ra Warriors take shockwave for imps!
+END
+VER 3 0000000000000053 "13 - Archimonde" "INV_MISC_HEAD_TAUREN_01"
+/ra Nether Banish 1ST: tank + G3 + G4 
+/ra 2ND Nether Banish = tank + Cayna + Mierra
+END
+VER 3 0000000000000055 "13.1" "SPELL_MISC_PETHEAL"
+/ra P1 - move betwen Square and Cross @ Allure (moon + purple for ranged DPS)
+/ra P1 - Doomfire kited on the outside of the markers
+/ra P2 - Gather on boss, break SHACKLE 1 +2 BREAK INSTANTLY, then 3 after
+/ra P3 - Hunters deal with infernals + G5 shadows
+END
+VER 3 000000000000004E "2. Reaver" "INV_MISC_QUESTIONMARK"
+/RA G1 + G3 left
+/RA G2 + G4 right
+/RA G5 + G6 spread ffa
+END
+VER 3 0000000000000057 "3. Korm" "INV_MISC_QUESTIONMARK"
+/ra Hands gather on SQUARE mark with slight spread (3 yards)
+/ra Hands CDs: 1= Miskn+Laser 2= Strongco + Shensei + Wuzza
+/ra GREEN -> PURPLE
+END
+VER 3 000000000000004F "5. Killrog" "INV_MISC_QUESTIONMARK"
+/ra VISION ASSIGNMENT:
+/RA 1. Torion, Krypta, Shomee
+/ra 2. Shedd, Riskage, Ralidor
+/ra 3. 
+/ra HEART SEEKER TO ENTRANCE
+END
+VER 3 000000000000005A "6. Gorefiend" "INV_MISC_QUESTIONMARK"
+/ra FEAST; allen -> light -> kasio -> arch -> sury
+/ra RC order: Gixx -> Lenxn (pop first when raid is about to die and then chain next)
+END
+VER 3 0000000000000050 "7. Iskar" "INV_MISC_QUESTIONMARK"
+/ra Shakram; BLUE = ranged/healer, PURPLE = melee, RED = tank
+/ra bomb dispels = MierrA (Stratos interupt)
+/ra fel raven = Stratos
+/ra FIRE = stand still and heal through it
+/ra Eye pickup at start: Sco
+END
+VER 3 0000000000000058 "8. Sorc" "INV_MISC_QUESTIONMARK"
+/ra INTERUPTS: Mini + Strongcore -> Nockx + Cubftw -> Dashing + Cayna
+/ra DK's grip shadow adds
+/ra G4 focus some AoE on ghosts
+/ra Construct = Sco
+ 
+END
+VER 3 0000000000000051 "9. Tyrande" "INV_MISC_QUESTIONMARK"
+/RA P1 - stay still with anni, EDICT on melee
+/RA P2 - left leg for raid, right leg for debuff
+/RA P2 - INTERUPTS: Strongcore -> Cayna -> Widow
+/RA P2 - EDICTS: 1=Miskn  2=StrONG+Laser  3=Wizza, Shensei
+/RA P3 - raid on blue
+END
+VER 3 0000000000000047 "AA" "ACHIEVEMENT_GUILDPERK_MOUNTUP"
+/aa toggle
+END
+VER 3 000000000000003C "Al'Akir" "Ability_Creature_Cursed_05"
+/ra 1 = Sco, Valiane, Treckie
+/ra 2 = Aldaya, Justwait, Blatty
+/ra 3 = Pacteh, Zkall, Artzie
+/ra 4 = Phlare, Yata, Noxe
+/ra 5 = Strydem, Infeh, Mca, Would
+/ra 6 = Faerko, Deac, Perfecto
+/ra 7 = Katsumi, Leeds, Roger
+/ra 8 = Owld, Dabears, Vykina
+END
+VER 3 000000000000006C "BlackOX" "INV_MISC_QUESTIONMARK"
+#showtooltip Provoke
+/target Black Ox Statue
+/cast Provoke
+/targetlasttarget
+END
+VER 3 0000000000000012 "Bloodthirst" "Spell_Nature_BloodLust"
+#showtooltip Bloodthirst
+/startattack
+/cast Bloodthirst
+END
+VER 3 000000000000004B "BOP macro" "133000"
+/cancelaura hand of protection
+END
+VER 3 000000000000001A "camera" "INV_Misc_QuestionMark"
+/console CameraDistanceMaxFactor 4
+END
+VER 3 0000000000000069 "CAMERA" "132156"
+/console cameraDistanceMaxFactor 2.6
+END
+VER 3 000000000000005C "Cancel Blade" "INV_MISC_QUESTIONMARK"
+/cancelaura Bladestorm
+END
+VER 3 000000000000001E "chall" "Ability_BullRush"
+#showtooltip challenging shout
+/cast challenging shout
+/rw ==CHALL SHOUT USED==
+END
+VER 3 0000000000000030 "charge" "Ability_Warrior_Warbringer"
+#showtooltip Charge
+/castsequence [harm] reset=15 Charge, Intercept;
+/y help im gay
+END
+VER 3 0000000000000038 "Cleave" "INV_Misc_QuestionMark"
+#showtooltip Cleave
+/startattack
+/cast Cleave
+END
+VER 3 000000000000003A "Colossus Smash" "INV_Misc_QuestionMark"
+#showtooltip Colossus Smash(Battle, Berserker Stance)
+/startattack
+/cast Colossus Smash(Battle, Berserker Stance)
+END
+VER 3 0000000000000049 "console" "INV_MISC_QUESTIONMARK"
+/console synchronizeConfig 0
+/console synchronizeBindings 0
+/console synchronizeMacros 0 
+END
+VER 3 0000000000000015 "COUNT" "Ability_Hunter_FocusedAim"
+/rw Pull in 8 seconds
+/in 1 /rw 7
+/in 2 /rw 6
+/in 3 /rw 5
+/in 4 /rw 4
+/in 5 /rw 3
+/in 6 /rw 2
+/in 7 /rw 1...
+/in 8 /rw GOGO!
+END
+VER 3 0000000000000062 "Dash" "INV_MISC_QUESTIONMARK"
+#showtooltip Dash
+/cast Cat Form
+/cast Dash
+END
+VER 3 000000000000003D "Deathwish" "INV_Misc_QuestionMark"
+#showtooltip Death Wish
+/startattack
+/cast Death Wish
+/use 10
+END
+VER 3 0000000000000032 "Devastate" "INV_Misc_QuestionMark"
+/startattack
+/cast Devastate
+END
+VER 3 0000000000000036 "FURY" "Ability_Warrior_Challange"
+/equipslot 16 Whitefin Axe
+/equipslot 17 Foe Reaper
+END
+VER 3 000000000000003E "Heroic Strike" "INV_MISC_QUESTIONMARK"
+/startattack
+/cast Heroic Strike
+END
+VER 3 0000000000000020 "HS" "Ability_Creature_Poison_02"
+/use healthstone
+END
+VER 3 0000000000000003 "Intervene" "Ability_Warrior_VictoryRush"
+/cast [nostance: 2] Defensive Stance; [help] Intervene; [target=targettarget, help] Intervene;
+END
+VER 3 0000000000000044 "IntRoger" "INV_MISC_QUESTIONMARK"
+/cast [nostance: 2] Defensive Stance; [help] Intervene; [target=kuznam, help] Intervene;
+END
+VER 3 000000000000001D "Last Stand" "Spell_Holy_AshesToAshes"
+/raid >>> LS UP! <<<
+/cast Last Stand
+/in 20 /raid >>> LS DOWN <<<
+END
+VER 3 000000000000005D "MDarkCommand" "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Command
+/cast [@mouseover,exists,harm][@target,exists,harm] Dark Command
+END
+VER 3 0000000000000068 "Mdeathscaress" "INV_MISC_QUESTIONMARK"
+#showtooltip Death's caress
+/cast [@mouseover,exists,harm][@target,exists,harm] Death's caress
+END
+VER 3 000000000000004C "Method XL TS" "133015"
+/rw >>> JOIN TS - info in /ra <<<
+/ra IP: ts63.gameservers.com:9452
+/ra password: mxlp
+/ra channel: Subscriber raid
+END
+VER 3 0000000000000060 "MGrip" "INV_MISC_QUESTIONMARK"
+#showtooltip Death Grip
+/cast [@mouseover,exists,harm][@target,exists,harm] Death Grip
+END
+VER 3 0000000000000063 "MGrowl" "INV_MISC_QUESTIONMARK"
+#showtooltip Growl
+/cast [@mouseover,exists,harm][@target,exists,harm] Growl
+END
+VER 3 000000000000006A "MHand" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Reckoning
+/cast [@mouseover,exists,harm][@target,exists,harm] Hand of Reckoning
+END
+VER 3 0000000000000067 "Mmindfreeze" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Freeze
+/cast [@mouseover,exists,harm][@target,exists,harm] Mind Freeze
+END
+VER 3 0000000000000066 "Mmoonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip Moonfire
+/cast [@mouseover,exists,harm][@target,exists,harm] Moonfire
+END
+VER 3 0000000000000042 "mockcancel" "INV_MISC_HEAD_TAUREN_01"
+/cancelaura Mocking Banner
+END
+VER 3 0000000000000026 "Mortal" "Ability_Warrior_SavageBlow"
+/startattack
+/cast Mortal Strike
+END
+VER 3 000000000000001C "mount" "Ability_Mount_Undeadhorse"
+/use [flyable,nocombat] Merciless Nether Drake
+/use [outdoors,nocombat] Amani War Bear
+/dismount
+END
+VER 3 0000000000000045 "Mprovoke" "INV_MISC_QUESTIONMARK"
+#showtooltip Provoke
+/cast [@mouseover,exists,harm][@target,exists,harm] Provoke
+END
+VER 3 0000000000000061 "Mpummel" "INV_MISC_QUESTIONMARK"
+#showtooltip Pummel
+/cast [@mouseover,exists,harm][@target,exists,harm] Pummel
+END
+VER 3 000000000000006B "Mrebuke" "INV_MISC_QUESTIONMARK"
+#showtooltip Rebuke
+/cast [@mouseover,exists,harm][@target,exists,harm] Rebuke
+END
+VER 3 0000000000000065 "Mskull" "INV_MISC_QUESTIONMARK"
+#showtooltip Skull bash
+/cast [@mouseover,exists,harm][@target,exists,harm] Skull bash
+END
+VER 3 000000000000003F "Mtaunt" "INV_MISC_QUESTIONMARK"
+#showtooltip Taunt
+/cast [@mouseover,exists,harm][@target,exists,harm] Taunt
+END
+VER 3 0000000000000064 "MThrow" "INV_MISC_QUESTIONMARK"
+#showtooltip Heroic Throw
+/cast [@mouseover,exists,harm][@target,exists,harm] Heroic Throw
+END
+VER 3 0000000000000034 "Nef1501" "Ability_Druid_SupriseAttack"
+Blue Square - 
+Purple Diamond - Sco
+Green Triangle -
+END
+VER 3 0000000000000033 "Nefarian1301" "Ability_Hunter_MasterTactitian"
+/ra Blue Square - Mca, Nosfe, Satt, Treckie, Bigboon, Vexo
+/ra Purple Diamond - Razie, Lortha, Notfur, Gatina, Supersdw, Artzie, Oild
+/ra Green Triangle - Katsumi, Dreamer, Sco, Vitio, Plazma
+END
+VER 3 000000000000000E "PORTALS" "Ability_Druid_Starfall"
+/ra Portals:
+/ra 1 = Phlare, 2 = Mca, 3 =, 4 = Hibye , 5 = Nosfe
+/ra 6 = Blak. 7 = Fart, 8 = Gofereq, 9 = Sonne, 10 = Shianny
+END
+VER 3 000000000000004D "PULL" "SPELL_WARRIOR_GLADIATORSTANCE"
+/pull 12
+END
+VER 3 000000000000003B "Pummel" "INV_Misc_QuestionMark"
+#showtooltip Pummel(Battle, Berserker Stance)
+/startattack
+/cast Pummel(Battle, Berserker Stance)
+END
+VER 3 000000000000002F "Pummel" "INV_MISC_QUESTIONMARK"
+/cast Pummel
+/say KICKED
+END
+VER 3 0000000000000001 "quickcheck" "Ability_Druid_Typhoon"
+/bb quickcheck raid
+END
+VER 3 0000000000000039 "Raging Blow" "INV_Misc_QuestionMark"
+#showtooltip Raging Blow(Berserker Stance)
+/startattack
+/cast Raging Blow(Berserker Stance)
+END
+VER 3 0000000000000041 "Readycheck" "INV_SCROLL_11"
+/readycheck
+END
+VER 3 0000000000000040 "Revenge" "INV_MISC_QUESTIONMARK"
+/startattack
+/cast Revenge(Defensive Stance)
+END
+VER 3 0000000000000059 "ring macro" "INV_MISC_QUESTIONMARK"
+/use 12
+/cast dragon roar
+/y im a gay boiiii
+END
+VER 3 000000000000005B "sAC" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Sacrifice
+/cast [@FOCUS] Hand of Sacrifice
+END
+VER 3 0000000000000013 "Shatter" "Ability_Warrior_ShatteringThrow"
+/raid +++ Shattering throw UP! +++
+/cast Shattering Throw
+/in 10 /raid Shattering throw went off!
+END
+VER 3 0000000000000035 "SHIELD" "Ability_Warrior_DefensiveStance"
+/equipslot 16 Dragonscorn Mace
+/equipslot 17 Truthbreaker Shield 
+END
+VER 3 0000000000000023 "Shield Slam" "INV_Misc_QuestionMark"
+/startattack
+/cast Shield Slam
+END
+VER 3 000000000000001B "Shield Wall" "Ability_Warrior_ShieldWall"
+/raid >>> SW UP! <<<
+/cast Shield Wall
+/in 12 /raid >>> SW DOWN <<<
+/y help im a gay man
+END
+VER 3 0000000000000046 "SProvoke" "INV_MISC_QUESTIONMARK"
+/Target Black Ox Statue
+/cast Provoke 
+/Targetlasttarget
+END
+VER 3 000000000000005F "sub Curse" "132482"
+/RW *** ALL JOIN CURSE for voice com - dets in /ra ***
+/ra www.curse.com/sco
+/ra can open in web browser or download client (recommended!)
+/ra voice channel: sub/viewer raid
+END
+VER 3 0000000000000056 "sub TS" "TALENTSPEC_DRUID_BALANCE"
+/RW *** ALL JOIN TS - dets in /ra ***
+/ra IP: 85.236.101.154:10357
+/ra pass: Kappa12345
+/ra channel: Game channel 1
+END
+VER 3 000000000000005E "sub ts 2" "ACHIEVEMENT_ZONE_DRAENOR_01"
+/rw CHECK RAID CHAT FOR TS - ALL JOIN
+/ra IP:  62.104.20.84:10005
+/ra pass = lol123
+/ra channel = raid 1
+END
+VER 3 000000000000002E "TAUNT" "Spell_Nature_Purge"
+/target Aerial Command Unit
+/cast Taunt
+/targetlasttarget
+/y IM A GAAAY MAN
+END
+VER 3 0000000000000048 "THROW" "ACHIEVEMENT_GUILDPERK_GMAIL"
+/stopcasting
+/tar mouseover
+/click ExtraActionButton1
+/targetlasttarget
+END
+VER 3 000000000000004A "THROWdsd" "SPELL_HOLY_SENSEUNDEAD"
+/stopcasting
+/target sophipoop
+/click ExtraActionButton1
+/targetlasttarget
+END
+VER 3 0000000000000043 "toggle" "INV_MISC_FLOWER_01"
+/aa toggle
+END
+VER 3 0000000000000031 "Valk2" "Ability_Creature_Cursed_04"
+/ra Valks:
+/ra Circle (Farthammer) - Kordelia(1st stun)  G2
+/ra Diamond (Kanan) - Rei(1st stun), G3
+/ra Triangle (Justnita)) - Ruznam(1st stun) G4
+END
+VER 3 0000000000000029 "Vig" "Ability_Warrior_Vigilance"
+#showtooltip Vigilance
+/cast [@focus] Vigilance
+END
+VER 3 0000000000000037 "Whirlwind" "Ability_Whirlwind"
+#showtooltip Whirlwind(Berserker Stance)
+/startattack
+/cast Whirlwind(Berserker Stance)
+/y BOOOOOONER STOOOORM
+/y IM A GAAAAAY BOY STOOOORM
+END

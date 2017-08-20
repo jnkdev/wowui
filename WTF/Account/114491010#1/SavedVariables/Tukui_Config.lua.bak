@@ -1,0 +1,10 @@
+
+TukuiConfigShared = {
+	["Die Silberne Hand"] = {
+		["Shinsu"] = {
+		},
+	},
+	["Account"] = {
+	},
+}
+TukuiConfigPerAccount = nil

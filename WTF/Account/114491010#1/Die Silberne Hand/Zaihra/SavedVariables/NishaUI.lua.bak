@@ -1,0 +1,2 @@
+
+TukuiSavedperchar = nil

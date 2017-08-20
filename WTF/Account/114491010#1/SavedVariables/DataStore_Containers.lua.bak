@@ -1,0 +1,36 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Афенар - Ревущий фьорд"] = "Афенар - Ревущий фьорд",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Ревущий фьорд.Афенар"] = {
+				["lastUpdate"] = 1469307057,
+				["numFreeBagSlots"] = 13,
+				["Containers"] = {
+					["Bag-3"] = {
+						["size"] = 98,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							128364, -- [2]
+							112324, -- [3]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::1:256::::::|h[Камень возвращения]|h|r", -- [1]
+							"|cff1eff00|Hitem:128364::::::::1:256::::::|h[Шляпа командира флота]|h|r", -- [2]
+							"|cffa335ee|Hitem:112324::::::::1:256::::::|h[Кошмарная коновязь]|h|r", -- [3]
+						},
+						["freeslots"] = 13,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+				},
+				["numBagSlots"] = 16,
+			},
+		},
+		["Version"] = 1,
+	},
+}
